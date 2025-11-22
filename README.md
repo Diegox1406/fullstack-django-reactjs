@@ -16,14 +16,14 @@ Aplicación web full-stack desarrollada con Django (backend) y React (frontend).
 ### API Endpoints
 ## Autenticación
 
-POST /api/user/register/ - Registrar usuario
-POST /api/token/ - Obtener tokens JWT
-POST /api/token/refresh/ - Refrescar access token
+- POST /api/user/register/ - Registrar usuario
+- POST /api/token/ - Obtener tokens JWT
+- POST /api/token/refresh/ - Refrescar access token
 
 ## Notas (Requieren autenticación)
-GET /api/notes/ - Listar notas del usuario
-POST /api/notes/ - Crear nueva nota
-DELETE /api/notes/delete/:id/ - Eliminar nota
+- GET /api/notes/ - Listar notas del usuario
+- POST /api/notes/ - Crear nueva nota
+- DELETE /api/notes/delete/:id/ - Eliminar nota
 
 ## 📋 Requisitos Previos
 
